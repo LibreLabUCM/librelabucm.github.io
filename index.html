@@ -1,3 +1,100 @@
-<html lang=es>
-printf("Hello %llu",2015);
-</html> 
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>LibreLabUCM - Software Libe Made in UCM</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Orbitron:700' rel='stylesheet' type='text/css'>
+  </head>
+  <style>
+    body {
+      font-family: "Open Sans", sans-serif;
+      color: #17c112;
+/*      color: #f1f1f1;*/
+      background-color: #000000;
+    }
+    h1 {
+      font-family: "Orbitron";
+      text-align: center;
+    }
+    p {
+      font-size: 12pt;
+    }
+    header {
+      text-align: center;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      width: auto;
+      float: left;
+    }
+    main {
+      clear: both;
+      padding: 1em .5em 0 .5em;
+    }
+    #contact {
+      padding-top: 2em;
+      text-align: center;
+      padding-bottom: 1em;
+    }
+    input[type='email'] {
+      height: 3.5em;
+      width: 20em;
+      padding-right: 4em;
+      margin-bottom: 1em;
+    }
+    button {
+      background-color: #2ecc71;
+      color: #ffffff;
+      font-weight: bold;
+      transition: background 0.1s ease-in-out;
+      -webkit-transition: backgroupnd 0.1s ease-in-out;
+      -moz-transition: background 0.1s ease-in-out;
+      -ms-transition: background 0.1s ease-in-out;
+      -o-transition: background 0.1s ease-in-out;
+      text-shadow: 0 1px rgba(0,0,0,0.3);
+      border-radius: 3px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      padding: 14px 26px;
+      width: 17em;
+      box-shadow: 0px 3px 0px 0px #239a55;
+      outline: none;
+      border: none;
+    }
+    button:hover {
+      background-color: #28b363;
+    }
+    @media only screen and (max-width: 500px) {
+      button {
+        width: 24.5em;
+      }
+    }
+  </style>
+  <body>
+    <div class="container">
+      <header>
+        <h1>LibreLabUCM</h1>
+        <img src="llu.png" />
+      </header>
+      <main>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.
+        </p>
+      </main>
+      <div id='contact'>
+        <p>Suscríbete a nuestra lista de correo:</p>
+        <input id="email" type="email" autocomplete="off" required placeholder="email@email.email">
+        <button onclick="submit()">Submit</button>
+
+      </div>
+    </div>
+    <script type="application/javascript">
+      function submit () {
+        var result = document.getElementById('email').value;
+        window.open("http://groups.google.com/group/librelabucm/boxsubscribe?email="+result, '_blank');
+      }
+    </script>
+  </body>
+</html>

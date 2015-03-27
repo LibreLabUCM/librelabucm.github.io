@@ -6,71 +6,7 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Orbitron:700' rel='stylesheet' type='text/css'>
   </head>
-  <style>
-    body {
-      font-family: "Open Sans", sans-serif;
-      color: #17c112;
-      background-color: #000000;
-    }
-    h1 {
-      font-family: "Orbitron";
-      text-align: center;
-    }
-    p {
-      font-size: 12pt;
-    }
-    header {
-      text-align: center;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-      width: auto;
-      float: left;
-    }
-    main {
-      clear: both;
-      padding: 1em .5em 0 .5em;
-    }
-    #contact {
-      padding-top: 2em;
-      text-align: center;
-      padding-bottom: 1em;
-    }
-    input[type='email'] {
-      height: 3.5em;
-      width: 20em;
-      padding-right: 4em;
-      margin-bottom: 1em;
-    }
-    button {
-      background-color: #2ecc71;
-      color: #ffffff;
-      font-weight: bold;
-      transition: background 0.1s ease-in-out;
-      -webkit-transition: backgroupnd 0.1s ease-in-out;
-      -moz-transition: background 0.1s ease-in-out;
-      -ms-transition: background 0.1s ease-in-out;
-      -o-transition: background 0.1s ease-in-out;
-      text-shadow: 0 1px rgba(0,0,0,0.3);
-      border-radius: 3px;
-      -webkit-border-radius: 3px;
-      -moz-border-radius: 3px;
-      padding: 14px 26px;
-      width: 17em;
-      box-shadow: 0px 3px 0px 0px #239a55;
-      outline: none;
-      border: none;
-    }
-    button:hover {
-      background-color: #28b363;
-    }
-    @media only screen and (max-width: 500px) {
-      button {
-        width: 24.5em;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
   <body>
     <div class="container">
       <header>
@@ -84,15 +20,12 @@
       </main>
       <div id='contact'>
         <p>Suscríbete a nuestra lista de correo:</p>
-        <input id="email" type="email" autocomplete="off" required placeholder="email@email.email">
-        <button onclick="submit()">Submit</button>
-
+        <button onclick="submit()">Go!</button>
       </div>
     </div>
-    <script type="application/javascript">
+    <script type="text/javascript">
       function submit () {
-        var result = document.getElementById('email').value;
-        window.open("http://groups.google.com/group/librelabucm/boxsubscribe?email="+result, '_blank');
+        window.open('https://groups.google.com/forum/#!forum/librelabucm/join', '_blank');
       }
     </script>
   </body>

@@ -54,6 +54,7 @@ main {
 }
 
 button {
+  cursor: pointer;
   background-color: #17c112;
   color: #ffffff;
   font-weight: bold;

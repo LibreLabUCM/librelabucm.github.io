@@ -47,11 +47,25 @@ main {
   padding: 1rem .5rem 1rem .5rem;
 }
 
-#contact {
+td, th, table {
+  text-align:center;
+  vertical-align:middle;
+}
+
+#buttoner {
   padding-top: 2rem;
   text-align: center;
   padding-bottom: 1rem;
 }
+
+#actTable {
+  padding-left: 2rem;
+}
+.act {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
 
 button {
   cursor: pointer;
@@ -98,7 +112,7 @@ button:hover {
     padding: 1rem .5rem 0rem .5rem;
   }
 
-  #contact {
+  #buttoner {
     padding-top: 1rem;
     padding-bottom: .5rem;
   }

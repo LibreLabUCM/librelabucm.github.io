@@ -1,0 +1,15 @@
+{
+    "A1" : { "title" : "Curso de C++",
+	     "desc":"<p>¿Quieres aprender C++? Empezamos desde cero y llegamos a alto nivel!<br/>En colaboración con la asociacion ASCII os ofrecemos este curso que tiene lugar todas las semanas los <b>Martes y Jueves</b>de 18:00 a 19:00 en la facultad de Informática. No dudes en escribirnos para más información</p>"
+	   },
+    "A2" : { "title" : "Bot Telegram",
+	     "desc":"<p>¿Sabías que Telegram ha abierto un API para bots? Estamos desarrollando nuestro propio bot que sea capaz de hacer multitud de tareas como buscar en google, guardar notas en los grupos, mostrarnos la tira de xkcd... Y un sin fin de opciones. Te invitamos a colaborar con nostros online desde <a href='https://github.com/LibreLabUCM/HALIX9000'>GitHub.com/LibreLabUCM</a></p>"
+	   },
+    "A3" : { "title" : "Reuniones semanales",
+	     "desc" : "<p>Todos los martes quedamos para 'cacharear' y hablar en la sala Auxiliar de la facultad de Informática (en la entrada de la Biblioteca, la antigua repografía), estas invitado a venir y participar de los miniproyectos que realizamos en esos ratos, el horario es de 13:00 a 16:00 los martes, pero puedes venir el tiempo que quieras y cuando quieras.</p>"
+	   },
+    "A4" : { "title" : "Grupo de Telegram",
+	     "desc" : "<p>Tenemos actividad en un grupo de telegram donde compartimos debatimos hablamos y dialogamos acerca de todo lo que nos pueda interesar o necesitemos en cada momento, para entrar escribenos un email o suscribete a la <a href='https://groups.google.com/forum/#!forum/librelabucm/join'>lista de correo</a>.</p>"
+	   }
+}
+

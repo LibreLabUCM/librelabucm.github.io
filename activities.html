@@ -23,7 +23,9 @@
            var jsonVar = JSON.parse(xobj.responseText);
            var n = 0;
            for(var k in jsonVar){
-             addAct(Table,jsonVar[k]["title"],jsonVar[k]["desc"]);
+	     if (jsonVar[k]["active"]) {
+               addAct(Table,jsonVar[k]["title"],jsonVar[k]["desc"]);
+             }
              n += 1;
            }
            if (n == 0) addAct(Table,"No hay actividades","Por algún motivo no hay actividades, esto es raro... habla con el administrador");

@@ -24,7 +24,7 @@
 	     "active": true
 	   },
     "A6" : { "title" : "Iniciación a Raspberry Pi",
-	     "desc" : "<p>Ponentes: Javier Rodríguez, alumno de la Facultad y Vocal en la Asociación ASCII, y Miguel alumno de la Facultad y miembro de <a href='http://www.librelabucm.org/'>LibreLabUCM</a><br/>Este curso se dirige a todos los alumnos interesados en conocer de primero mano las utilidades que tiene este microcomputador. Se expondrán diferentes proyectos sencillos para demostrar su potencial.<br/>Después de esta sesión introductoria, en las semanas siguientes se programarán talleres adicionales de ampliación.</p>",
+	     "desc" : "<p>Ponentes: Javier Rodríguez, alumno de la Facultad y Vocal en la Asociación ASCII, y Miguel Ángel Martínez Martín alumno de la Facultad y miembro de <a href='http://www.librelabucm.org/'>LibreLabUCM</a><br/>Este curso se dirige a todos los alumnos interesados en conocer de primero mano las utilidades que tiene este microcomputador. Se expondrán diferentes proyectos sencillos para demostrar su potencial.<br/>Después de esta sesión introductoria, en las semanas siguientes se programarán talleres adicionales de ampliación.</p>",
 	     "active": true
 	   },
     "A7" : { "title" : "Taller de git, github, gitlab",

@@ -1,15 +1,47 @@
 {
     "A1" : { "title" : "Curso de C++",
-	     "desc":"<p>¿Quieres aprender C++? Empezamos desde cero y llegamos a alto nivel!<br/>En colaboración con la asociación ASCII os ofrecemos este curso que tiene lugar todas las semanas los <b>Martes y Jueves</b>de 18:00 a 19:00 en la facultad de Informática. No dudes en escribirnos para más información</p>"
+	     "desc":"<p>¿Quieres aprender C++? Empezamos desde cero y llegamos a alto nivel!<br/>En colaboración con la asociación ASCII os ofrecemos este curso que tiene lugar todas las semanas los <b>Martes y Jueves</b>de 18:00 a 19:00 en la facultad de Informática. No dudes en escribirnos para más información</p>",
+	     "active": false
 	   },
     "A2" : { "title" : "Bot Telegram",
-	     "desc":"<p>¿Sabías que Telegram ha abierto un API para bots? Estamos desarrollando nuestro propio bot que sea capaz de hacer multitud de tareas como buscar en google, guardar notas en los grupos, mostrarnos la tira de xkcd... Y un sin fin de opciones. Te invitamos a colaborar con nostros online desde <a href='https://github.com/LibreLabUCM/HALIX9000'>GitHub.com/LibreLabUCM</a></p>"
+	     "desc":"<p>¿Sabías que Telegram ha abierto un API para bots? Estamos desarrollando nuestro propio bot que sea capaz de hacer multitud de tareas como buscar en google, guardar notas en los grupos, mostrarnos la tira de xkcd... Y un sin fin de opciones. Te invitamos a colaborar con nostros online desde <a href='https://github.com/LibreLabUCM/HALIX9000'>GitHub.com/LibreLabUCM</a></p>",
+	     "active": true
 	   },
     "A3" : { "title" : "Reuniones semanales",
-	     "desc" : "<p>Todos los martes quedamos para 'cacharrear' y hablar en la sala Auxiliar de la facultad de Informática (en la entrada de la Biblioteca, la antigua repografía), estás invitado a venir y participar de los miniproyectos que realizamos en esos ratos, el horario es de 13:00 a 16:00 los martes, pero puedes venir el tiempo que quieras y cuando quieras.</p>"
+	     "desc" : "<p>Todos los martes quedamos para 'cacharrear' y hablar en la sala Auxiliar de la facultad de Informática (en la entrada de la Biblioteca, la antigua repografía), estás invitado a venir y participar de los miniproyectos que realizamos en esos ratos, el horario es de 13:00 a 16:00 los martes, pero puedes venir el tiempo que quieras y cuando quieras.</p>",
+	     "active": true
 	   },
     "A4" : { "title" : "Grupo de Telegram",
-	     "desc" : "<p>Tenemos actividad en un grupo de telegram donde compartimos, debatimos, hablamos y dialogamos acerca de todo lo que nos pueda interesar o necesitemos en cada momento, para entrar escribenos un email o suscribete a la <a href='https://groups.google.com/forum/#!forum/librelabucm/join'>lista de correo</a>.</p>"
-	   }
+	     "desc" : "<p>Tenemos actividad en un grupo de telegram donde compartimos, debatimos, hablamos y dialogamos acerca de todo lo que nos pueda interesar o necesitemos en cada momento, para entrar escribenos un email o suscribete a la <a href='https://groups.google.com/forum/#!forum/librelabucm/join'>lista de correo</a>.</p>",
+	     "active": true
+	   },
+    "A0" : { "title" : "<h3><a href='https://informatica.ucm.es/ii-semana-de-la-informatica-2016'>Semana de la Informática</a></h3>",
+	     "desc" : "<p></p>",
+	     "active": true
+	   },
+    "A5" : { "title" : "Install Party",
+	     "desc" : "<p>Muchos de los talleres en la Semana de la Informática requieren software específico, a menudo basado en Linux. Si necesitas ayuda para configurar tu ordenador, puedes acudir a la Install Party con <a href='http://www.librelabucm.org/'>LibreLabUCM</a> y te ayudarán a prepararte para los talleres.</p>",
+	     "active": true
+	   },
+    "A6" : { "title" : "Iniciación a Raspberry Pi",
+	     "desc" : "<p>Ponentes: Javier Rodríguez, alumno de la Facultad y Vocal en la Asociación ASCII, y Miguel alumno de la Facultad y miembro de <a href='http://www.librelabucm.org/'>LibreLabUCM</a><br/>Este curso se dirige a todos los alumnos interesados en conocer de primero mano las utilidades que tiene este microcomputador. Se expondrán diferentes proyectos sencillos para demostrar su potencial.<br/>Después de esta sesión introductoria, en las semanas siguientes se programarán talleres adicionales de ampliación.</p>",
+	     "active": true
+	   },
+    "A7" : { "title" : "Taller de git, github, gitlab",
+	     "desc" : "<p>Ponente: Pablo García de los Salmones Valencia y Daniel Calle Sánchez, alumnos de la Facultad y miembros de <a href='http://www.librelabucm.org/'>LibreLabUCM</a>.<br/>¡Usad git! ¡No dropbox! ¡No Google Drive! ¡No email! En este taller se cubrirán los siguientes puntos:<br/>Introducción básica a git: qué es, por qué usarlo, ... Dónde pueden usarse (en proyectos de asignaturas, por ejemplo, y principalmente en proyectos en grupo).<br/>Guía sobre: instalación de git, creación de repositorio local, add, commit. Ver el log de commits. Poner tags en commits específicos.<br/>Explicación de qué son las branches, cómo crearlas, para qué usarlas, etc...<br/>Github: crear repositorio, añadir un remote en el repo local hacia el de github, hacer un push, hacer pull.<br/>Extra (si da tiempo):<br/>    Merges y pull requests.<br/>    Cómo añadir releases en github usando las tags.<br/>Se recomienda traer un portátil con git instalado. Si tienes dudas de cómo instalarlo, puedes acudir a la Install Party el lunes 22 por la mañana.</p>",
+	     "active": true
+	   },
+    "A8" : { "title" : "Anonimato en la red",
+	     "desc" : "<p>Ponente: Daniel García Baameiro, alumno de la Facultad y miembro de <a href='http://www.librelabucm.org/'>LibreLabUCM</a> . <br/>Está a la orden del día el espionaje máximo que realizan las agencias de inteligencia como puede ser la NSA. La idea de este taller es prooporcionar \"herramientas\" con el objetivo de obtener un mayor nivel de anonimato en la red. Se hará un recorrido de las distintas alternativas, hasta terminar buceando la red (navegación a través de la Deep Web).<br/>El taller no requiere conocimientos previos especiales. Se necesitará un ordenador con sistema operativo Linux. Las herramientas se podrán descargar en el taller. Si necesitas ayuda para instalar Linux en tu equipo, puedes acudir a la Install Party el lunes 22 de febrero.</p>",
+	     "active": true
+	   },
+    "A9" : { "title" : "Ahora me ves... ",
+	     "desc" : "<p>Ponente: Álvaro de la Cruz Casado, Daniel García Baameiro , alumnos de la Facultad y miembros de <a href='http://www.librelabucm.org/'>LibreLabUCM</a> .<br/>El taller consistirá en una introducción a la esteganografía, un método de ocultación de información y archivos usado desde los antiguos espías medievales hasta las grandes empresas y agencias de seguridad actuales. Se hará un recorrido de los distintos métodos de ocultación con ejemplos, como la ocultación de un texto en una imagen, o el almacenamiento de archivos ocultos en una pista de audio.<br/>El taller tiene un contenido teórico-práctico.<br/>Es opcional y a la vez útil llevar tu portátil para reproducir las técnicas empleadas durante la presentación.</p>",
+	     "active": true
+	   },
+    "A10" :{ "title" : "",
+	     "desc" : "<p></p>",
+	     "active": false
+	   } 
 }
 
